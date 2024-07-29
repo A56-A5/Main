@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code</title>
+    <link rel="stylesheet" href="learn.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="pics/code.png">
+
+</head>
+<body>
+    <div class="body">
+    <div class="nav"><br>
+        <div class="lesson"><div class="btn" style="font-size:3rem;height:auto;padding-bottom:25px;"><div class="name" style="margin-left: 20px;;">Learn <img style="padding:0;;height:30px;width:50px;" src="pics/code.png"></div></div></div>
+        <div class="lesson html">
+            <div id="html" class="btn lns"><i class='bx bx-menu' title="Show Lessons"></i><img class="icon" src="code/icons/html.png"><div class="name">HTML</div></div>
+            <div class="sublesson btn shtml hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('html/1')" class="subname selected">basics</div></div>
+            <div class="sublesson btn shtml hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('html/2')" class="subname">links</div></div>
+            <div class="sublesson btn shtml hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('html/3')" class="subname">images</div></div>
+            <div class="sublesson btn shtml hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('html/4')" class="subname">audio</div></div>
+            <div class="sublesson btn shtml hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('html/5')" class="subname">video</div></div>
+            <div class="sublesson btn shtml hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('html/6')" class="subname">text format</div></div>
+            <div class="sublesson btn shtml hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('html/7')" class="subname">lists</div></div>
+            <div class="sublesson btn shtml hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('html/8')" class="subname">tables</div></div>
+            <div class="sublesson btn shtml hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('html/9')" class="subname">color-inline</div></div>
+            <div class="sublesson btn shtml hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('html/10')" class="subname">color-internal</div></div>
+            <div class="sublesson btn shtml hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('html/11')" class="subname">color-external</div></div>
+            <div class="sublesson btn shtml hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('html/12')" class="subname">span x div</div></div>
+            <div class="sublesson btn shtml hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('html/13')" class="subname">meta data</div></div>
+            <div class="sublesson btn shtml hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('html/14')" class="subname">iframes</div></div>
+            <div class="sublesson btn shtml hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('html/15')" class="subname">button</div></div>
+            <div class="sublesson btn shtml hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('html/16(1)','html/16(2)')" class="subname">forms</div></div>
+            <div class="sublesson btn shtml hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('html/17')" class="subname">icon</div></div>
+        </div>
+        <div class="lesson css">
+            <div id="css" class="btn lns"><i class='bx bx-menu' title="Show Lessons"></i><img class="icon" src="code/icons/css.png"><div class="name">CSS</div></div>
+            <div class="sublesson btn scss hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('css/1')" class="subname">basics</div></div>
+            <div class="sublesson btn scss hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('css/2')" class="subname">fonts</div></div>
+            <div class="sublesson btn scss hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('css/3')" class="subname">border</div></div>
+            <div class="sublesson btn scss hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('css/4')" class="subname">background</div></div>
+            <div class="sublesson btn scss hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('css/5')" class="subname">margin</div></div>
+            <div class="sublesson btn scss hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('css/6')" class="subname">float</div></div>
+            <div class="sublesson btn scss hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('css/7')" class="subname">position</div></div>
+            <div class="sublesson btn scss hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('css/8')" class="subname">pseudo</div></div>
+            <div class="sublesson btn scss hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('css/9')" class="subname">shadow</div></div>
+            <div class="sublesson btn scss hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('css/10')" class="subname">transform</div></div>
+            <div class="sublesson btn scss hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('css/11')" class="subname">animation</div></div>
+            <div class="sublesson btn scss hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('css/12')" class="subname">media</div></div>
+        </div>
+        <div class="lesson js">
+            <div id="js" class="btn lns"><i class='bx bx-menu' title="Show Lessons"></i><img class="icon" src="code/icons/js.png"><div class="name">Javascript</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/1')" class="subname">basics</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/2')" class="subname">variables</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/3')" class="subname">arithmetic operators</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/4')" class="subname">user input</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/5')" class="subname">type conversion</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/6')" class="subname">const</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/7')" class="subname">counter program</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/8')" class="subname">math</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/9')" class="subname">random</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/10')" class="subname">if else</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/11')" class="subname">checked property</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/12')" class="subname">ternary operator</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/13')" class="subname">switch</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/14')" class="subname">string methods</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/15')" class="subname">slicing</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/16')" class="subname">method chaining</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/17')" class="subname">logical operators</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/18')" class="subname">strict equality</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/19')" class="subname">while loop</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/20')" class="subname">for loop</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/21')" class="subname">functions</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/22')" class="subname">variable scope</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/23')" class="subname">arrays</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/24')" class="subname">spread operator</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/25')" class="subname">rest parameter</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/26')" class="subname">callback</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/27')" class="subname">foreach()</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/28')" class="subname">map()</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/29')" class="subname">filter()</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/30')" class="subname">reduce()</div></div>
+            <div class="sublesson btn sjs hidden" style="height:50px;"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/31')" class="subname" style="font-size: 1.1rem;">function expressions</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/32')" class="subname">arrow functions</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/33')" class="subname">js objects</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/34')" class="subname">this</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/35')" class="subname">constructor</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/36')" class="subname">classes</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/37')" class="subname">static keyword</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/38')" class="subname">inheritance</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/39')" class="subname">super keyword</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/40(1)','js/40(2)','js/40(3)')" class="subname">getter & setter</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/41')" class="subname">destructing</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/42')" class="subname">nested objects</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/43')" class="subname">array of objects</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/44')" class="subname">sort()</div></div>
+            <div class="sublesson btn sjs hidden" style="height:50px"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/45')" class="subname" style="font-size: 1.2rem;">fisher-yates algorithm</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/46')" class="subname">date objects</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/47')" class="subname">closure</div></div>
+            <div class="sublesson btn sjs hidden" style="height:50px"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/48')" class="subname" style="font-size: 1.1rem;">settimeout() & cleartimeout()</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/49(1)','js/49(2)','js/49(3)')" class="subname">e56 module</div></div>
+            <div class="sublesson btn sjs hidden" style="height:50px;"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/50')" class="subname" style="font-size: 1.3rem;">asynchronous code</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/51')" class="subname">error handling</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/52')" class="subname">dom</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/53')" class="subname">element selector</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/54')" class="subname">dom navigation</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/55')" class="subname" style="font-size: 1rem;">add & change html</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/56')" class="subname">mouse events</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/57')" class="subname">key events</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/58')" class="subname">show/hide html</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/59')" class="subname">node lists</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/60')" class="subname">class lists</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/61')" class="subname">callback hell</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/62')" class="subname">promises</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/63(1)','js/63(2)')" class="subname">async/await</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/64')" class="subname">json files</div></div>
+            <div class="sublesson btn sjs hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('js/65')" class="subname">fetch()</div></div>
+        </div>
+        <div class="lesson python">
+            <div id="python" class="btn lns"><i class='bx bx-menu' title="Show Lessons"></i><img class="icon" src="code/icons/python.png"><div class="name">Python</div></div>
+            <div class="sublesson btn spython hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('python/1')" class="subname">data types</div></div>
+            <div class="sublesson btn spython hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('python/2')" class="subname">conversions</div></div>
+            <div class="sublesson btn spython hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('python/3(1)','python/3(2)')" class="subname">string methods</div></div>
+            <div class="sublesson btn spython hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('python/4')" class="subname">operators</div></div>
+            <div class="sublesson btn spython hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('python/5')" class="subname">lists</div></div>
+            <div class="sublesson btn spython hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('python/6')" class="subname">tuples</div></div>
+            <div class="sublesson btn spython hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('python/7')" class="subname">sets</div></div>
+            <div class="sublesson btn spython hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('python/8')" class="subname">dictionaries</div></div>
+            <div class="sublesson btn spython hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('python/9')" class="subname">if else</div></div>
+            <div class="sublesson btn spython hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('python/10')" class="subname">loops</div></div>
+            <div class="sublesson btn spython hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('python/11')" class="subname">functions</div></div>
+            <div class="sublesson btn spython hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('python/12')" class="subname">class & objects</div></div>
+            <div class="sublesson btn spython hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('python/13')" class="subname">inheritance</div></div>
+            <div class="sublesson btn spython hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('python/14')" class="subname">error handling</div></div>
+            <div class="sublesson btn spython hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('python/15')" class="subname">modules</div></div>
+            <div class="sublesson btn spython hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('python/16(1)','python/16(2)')" class="subname">file handling</div></div>
+        </div>
+        <div class="lesson java">
+            <div class="btn"><i class='bx bx-menu' title="Show Lessons"></i><img class="icon" src="code/icons/java.png"><div class="name">Java</div></div>
+            <div class="sublesson btn hidden"><i class="bx bx-subdirectory-right"></i><div class="subname">basics</div></div>
+        </div>
+        <div class="lesson c">
+            <div id="c" class="btn lns"><i class='bx bx-menu' title="Show Lessons"></i><img class="icon" src="code/icons/c.png"><div class="name">C</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/1')" class="subname">basics</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/2')" class="subname">variables</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/3')" class="subname">datatypes</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/4')" class="subname" style="font-size: 1rem;">arithmetic operators</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/5')" class="subname">user input</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/6')" class="subname">fgets</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/7')" class="subname">math functions</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/8')" class="subname">if else</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/9')" class="subname">switch</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/10')" class="subname">logical operators</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/11')" class="subname">functions</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/12')" class="subname">ternary operator</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/13')" class="subname">function prototype</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/14')" class="subname">string functions</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/15')" class="subname">loops</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/16')" class="subname">nested loop</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/17')" class="subname" style="font-size: 1.2rem;">break & continue</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/18')" class="subname">arrays</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/19')" class="subname">2d arrays</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/20')" class="subname">array of strings</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/21')" class="subname">sort array</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/22')" class="subname">struct</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/23')" class="subname">typedef</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/24')" class="subname">array of structs</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/25')" class="subname">enums</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/26')" class="subname" style="font-size: 1.2rem;">random numbers</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/27')" class="subname" style="font-size: 1.1rem;">bitwise operators</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/28')" class="subname" style="font-size: 1.1rem;">memory addresses</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/29')" class="subname">pointers</div></div>
+            <div class="sublesson btn sc hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('c/30')" class="subname">file handling</div></div>
+        </div>
+        <div class="lesson cpp">
+            <div id="cpp" class="btn lns"><i class='bx bx-menu' title="Show Lessons"></i><img class="icon" src="code/icons/c++.png"><div class="name">C++</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/1')" class="subname">basics</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/2')" class="subname">variables</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/3')" class="subname">namespaces</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/4')" class="subname" style="font-size: 1.1rem;">typedef & typealias</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/5')" class="subname">operators</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/6')" class="subname">type conversion</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/7')" class="subname">user input</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/8')" class="subname">math functions</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/9')" class="subname">if else</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/10')" class="subname">switch</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/11')" class="subname">ternary operator</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/12')" class="subname">logical operator</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/13')" class="subname">string methods</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/14')" class="subname">while loop</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/15')" class="subname">do while loop</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/16')" class="subname">for loop</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/17')" class="subname">random</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/18')" class="subname">functions</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/19')" class="subname">array</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/20')" class="subname">sizeof()</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/21')" class="subname">iterate array</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/22')" class="subname">foreach()</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/23')" class="subname" style="font-size: 1.1rem;">array to function</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/24')" class="subname">search in array</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/25')" class="subname">sort array</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/26')" class="subname">fill()</div></div>
+            <div class="sublesson btn scpp hidden" style="height:50px;"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/27')" class="subname" style="font-size:1.1rem;">multidimensional arrays</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/28')" class="subname">pointers</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/29')" class="subname">null pointers</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/30')" class="subname">dynamic memory</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/31')" class="subname">recursion</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/32')" class="subname" style="font-size: 1.1rem;">function templates</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/33')" class="subname">structs</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/34')" class="subname" style="font-size: 1.1rem;">structs to function</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/35')" class="subname">enums</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/36')" class="subname">class & objects</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/37')" class="subname">constructors</div></div>
+            <div class="sublesson btn scpp hidden" style="height:50px;"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/38')" class="subname" style="font-size: 1.1rem;">overloaded constructors</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/39')" class="subname">getters & setters</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/40')" class="subname">inheritance</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/41')" class="subname">error handling</div></div>
+            <div class="sublesson btn scpp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cpp/42')" class="subname">file handling</div></div>
+        </div>
+        <div class="lesson csharp">
+            <div id="csharp" class="btn lns"><i class='bx bx-menu' title="Show Lessons"></i><img class="icon" src="code/icons/csharp.png"><div class="name">C#</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/1')" class="subname">basics</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/2')" class="subname">variables</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/3')" class="subname">type casting</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/4')" class="subname">user input</div></div>
+            <div class="sublesson btn scsharp hidden" style="height:50px"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/5')" class="subname"  style="font-size: 1.1rem;">arithmetic operators</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/6')" class="subname">math functions</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/7')" class="subname">random</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/8')" class="subname">string methods</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/9')" class="subname">if else</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/10')" class="subname">switch</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/11')" class="subname">logical operator</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/12')" class="subname">loops</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/13')" class="subname">nested loops</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/14')" class="subname">arrays</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/15')" class="subname">foreach()</div></div>
+            <div class="sublesson btn scsharp hidden" style="height:50px"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/16')" class="subname" style="font-size: 1.1rem;">methods aka functions</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/17')" class="subname">return keyword</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/18')" class="subname" style="font-size: 1.1rem;">method overloading</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/19')" class="subname">params keyword</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/20')" class="subname">error handling</div></div>
+            <div class="sublesson btn scsharp hidden" style="height:50px"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/21')" class="subname" style="font-size: 1rem;">conditional/ternary operator</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/22')" class="subname" style="font-size: 1.1rem;">string interpolation</div></div>
+            <div class="sublesson btn scsharp hidden" style="height:50px"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/23')" class="subname" style="font-size: 1rem;">multidimensional arrays</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/24')" class="subname">classes</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/25')" class="subname">objects</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/26')" class="subname">constructors</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/27')" class="subname">static</div></div>
+            <div class="sublesson btn scsharp hidden" style="height:50px"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/28')" class="subname"  style="font-size: 1rem;">overloaded constructors</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/29')" class="subname">inheritance</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/30')" class="subname">abstract classes</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/31')" class="subname">array of objects</div></div>
+            <div class="sublesson btn scsharp hidden" style="height:35px"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/32')" class="subname" style="font-size: 1rem">objects as arguments</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/33')" class="subname" style="font-size: 1rem;">method overriding</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/34')" class="subname">ToString()</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/35')" class="subname">polymorphism</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/36')" class="subname">interface</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/37')" class="subname">lists</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/38')" class="subname">list of objects</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/39')" class="subname">getters & setters</div></div>
+            <div class="sublesson btn scsharp hidden" style="height:50px"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/40')" class="subname" style="font-size: 0.9rem;">auto-implemented properties</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/41')" class="subname">enums</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/42')" class="subname">generic</div></div>
+            <div class="sublesson btn scsharp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('cs/43')" class="subname">Multi threading</div></div>
+        </div>
+        <div class="lesson php">
+            <div id="php" class="btn lns"><i class='bx bx-menu' title="Show Lessons"></i><img class="icon" src="code/icons/php.png"><div class="name">PHP</div></div>
+            <div class="sublesson btn sphp hidden" style="height:50px;"><i class="bx bx-subdirectory-right"></i><div onclick="display('php/1')" class="subname" style="font-size: 1.1rem;">variables & datatypes</div></div>
+            <div class="sublesson btn sphp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('php/2')" class="subname">operators</div></div>
+            <div class="sublesson btn sphp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('php/3')" class="subname">get & post</div></div>
+            <div class="sublesson btn sphp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('php/4')" class="subname">math</div></div>
+            <div class="sublesson btn sphp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('php/5')" class="subname">if else</div></div>
+            <div class="sublesson btn sphp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('php/6')" class="subname">logical operators</div></div>
+            <div class="sublesson btn sphp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('php/7')" class="subname">switch</div></div>
+            <div class="sublesson btn sphp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('php/8')" class="subname">for loop</div></div>
+            <div class="sublesson btn sphp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('php/9')" class="subname">while loop</div></div>
+            <div class="sublesson btn sphp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('php/10')" class="subname">arrays</div></div>
+            <div class="sublesson btn sphp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('php/11')" class="subname" style="font-size: 1.1rem;">associative arrays</div></div>
+            <div class="sublesson btn sphp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('php/12')" class="subname" style="font-size: 1.1rem;">isset() & empty()</div></div>
+            <div class="sublesson btn sphp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('php/13')" class="subname">radio buttons</div></div>
+            <div class="sublesson btn sphp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('php/14')" class="subname">checkbox</div></div>
+            <div class="sublesson btn sphp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('php/15')" class="subname">functions</div></div>
+            <div class="sublesson btn sphp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('php/16')" class="subname">string functions</div></div>
+            <div class="sublesson btn sphp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('php/17')" class="subname" style="font-size: 1.1rem;">sanitize & validate</div></div>
+            <div class="sublesson btn sphp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('php/18')" class="subname">include()</div></div>
+            <div class="sublesson btn sphp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('php/19')" class="subname">cookies</div></div>
+            <div class="sublesson btn sphp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('php/20')" class="subname">sessions</div></div>
+            <div class="sublesson btn sphp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('php/21')" class="subname">server</div></div>
+            <div class="sublesson btn sphp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('php/22')" class="subname">hashing</div></div>
+            <div class="sublesson btn sphp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('php/23')" class="subname" style="font-size: 1.1rem;">mysql connection</div></div>
+            <div class="sublesson btn sphp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('php/24')" class="subname">insert data</div></div>
+            <div class="sublesson btn sphp hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('php/25')" class="subname">fetch data</div></div>
+        </div>
+        <div class="lesson mysql">
+            <div id="mysql" class="btn lns"><i class='bx bx-menu' title="Show Lessons"></i><img class="icon" src="code/icons/mysql.png"><div class="name">MySQL</div></div>
+            <div class="sublesson btn smysql hidden"><i class="bx bx-subdirectory-right"></i><div onclick="display('mysql/1')" class="subname">basics</div></div>        
+        </div>
+        <!-- space at the last --><div class="lesson "><div class="btn"></div></div>
+        </div>
+    <div class="display">
+        <div class="board">
+            <div class="img IMG">
+                <div class="iimg"><img class="img1" src="code/0.png" alt="Pictures here"></div>
+                <div class="iimg"><img class="img2 hidden" src="code/0.png" alt="Pictures here"></div>
+                <div class="iimg"><img class="img3 hidden" src="code/0.png" alt="Pictures here"></div>
+            </div>
+        </div>
+    </div>
+    <div class="popup hidden">
+        <span class="close">&times;</span>
+        <div class="IImg"><img class="Img Img1" src="code/0.png">
+        <img class="Img Img2 hidden" src="code/html/0.png">
+        <img class="Img Img3 hidden" src="code/html/0.png">
+        </div>
+    </div>
+    
+    <script src="learn.js"></script>
+</body>
+</html>
