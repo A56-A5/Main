@@ -4,10 +4,10 @@ This is my test website where I do random works and stuff.
 
 ## Showcase
 <div style="display: flex; justify-content: space-around;">
-<img src="pics/111.jpg" alt="Sudoku Solver" width="45%" />
-<img src="pics/222.png" alt="Doodle Jump" width="45%" />
 <img src="pics/333.png" alt="Doodle Jump" width="45%" />
 <img src="pics/444.png" alt="Doodle Jump" width="45%" />
+<img src="pics/111.jpg" alt="Sudoku Solver" width="45%" />
+<img src="pics/222.png" alt="Doodle Jump" width="45%" />
 </div>
 
 ### Game Section
