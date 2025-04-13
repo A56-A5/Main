@@ -4,6 +4,8 @@ This is my test website where I do random works and stuff.
 
 ## Showcase
 
+<img src="pics/111.jpg" alt="Sudoku Solver" width="45%" />
+<img src="pics/222.png" alt="Doodle Jump" width="45%" />
 ![1](pics/111.jpg)
 ![2](pics/222.png)
 ![3](pics/333.png)
