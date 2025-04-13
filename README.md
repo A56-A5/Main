@@ -3,9 +3,10 @@
 This is my test website where I do random works and stuff. 
 
 ## Showcase
-
+<div style="display: flex; justify-content: space-around;">
 <img src="pics/111.jpg" alt="Sudoku Solver" width="45%" />
 <img src="pics/222.png" alt="Doodle Jump" width="45%" />
+</div>
 ![1](pics/111.jpg)
 ![2](pics/222.png)
 ![3](pics/333.png)
