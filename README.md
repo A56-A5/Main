@@ -4,10 +4,10 @@ This is my test website where I do random works and stuff.
 
 ## Showcase
 
-![1](images/2048.png)
-![2](images/2048.png)
-![3](images/2048.png)
-![4](images/2048.png)
+![1](pics/111.jpg)
+![2](pics/222.png)
+![3](pics/333.png)
+![4](pics/444.png)
 
 ### Game Section
 - **Flappy Bird**: A classic arcade game where you control a bird and try to avoid pipes.
