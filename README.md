@@ -25,7 +25,7 @@ This is my test website where I do random works and stuff.
 - **Frontend**: HTML, CSS, JavaScript
 
 ## Accesss
-1. Visit https://a56-a5.github.io/Main/
+1. Visit [https://a56-a5.github.io/Random-Stuff/](https://a56-a5.github.io/Random-Stuff/)
 
 ## Contributing
 Feel free to fork this project or make improvements.
